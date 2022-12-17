@@ -14,7 +14,6 @@ import java.util.Optional;
 import static org.springframework.http.HttpStatus.*;
 
 @RestController
-@RequestMapping("/api")
 public class TutorialController {
     @Autowired
     TutorialRepository repo;
